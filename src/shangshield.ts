@@ -21,8 +21,8 @@ interface SecurityInfo {
  * Subtracts two numbers from each other, regardless of which 
  * one of the two is larger than the other.
  * @param {number} one The first number to conduct a subtraction on.
- * @param {number} two The first number to conduct a subtraction on.
- * @returns {number} Returns the result of the subtraction's result.
+ * @param {number} two The second number to conduct a subtraction on.
+ * @returns {number} Returns the result of the subtraction.
  */
 export function digitDistance(
     one: number, 
@@ -126,7 +126,7 @@ export function stringType(char: string): string {
  * @param {string} char The character to reduce to a number entity.
  * @param {number} letterWeight The weight assigned to normal alphabets. 
  * @param {number} specialCharWeight The weight assigned to special characters.
- * @returns {number} The number that the character has been reduced to is returned.
+ * @returns {number} The number the character has been reduced to is returned.
  */
 export function reduceCharactersToNumber(
     char: string, 
